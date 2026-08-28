@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1 /* AppleLiquidGlowDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1 /* AppleLiquidGlowDemoApp.swift */; };
+		A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2 /* ContentView.swift */; };
+		A3 /* LiquidGlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3 /* LiquidGlowView.swift */; };
+		A4 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F4 /* Shaders.metal */; };
+		A5 /* PlaygroundChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6 /* PlaygroundChrome.swift */; };
+		A6 /* GeneratedArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7 /* GeneratedArtwork.swift */; };
+		A7 /* PlaygroundIdleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8 /* PlaygroundIdleScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1 /* AppleLiquidGlowDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLiquidGlowDemoApp.swift; sourceTree = "<group>"; };
+		F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3 /* LiquidGlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlowView.swift; sourceTree = "<group>"; };
+		F4 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6 /* PlaygroundChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundChrome.swift; sourceTree = "<group>"; };
+		F7 /* GeneratedArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedArtwork.swift; sourceTree = "<group>"; };
+		F8 /* PlaygroundIdleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundIdleScreen.swift; sourceTree = "<group>"; };
+		P /* AppleLiquidGlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleLiquidGlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FW /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G /* AppleLiquidGlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1 /* AppleLiquidGlowDemoApp.swift */,
+				F2 /* ContentView.swift */,
+				F8 /* PlaygroundIdleScreen.swift */,
+				F3 /* LiquidGlowView.swift */,
+				F6 /* PlaygroundChrome.swift */,
+				F7 /* GeneratedArtwork.swift */,
+				F4 /* Shaders.metal */,
+				F5 /* Info.plist */,
+			);
+			path = AppleLiquidGlowDemo;
+			sourceTree = "<group>";
+		};
+		PG = {
+			isa = PBXGroup;
+			children = (
+				G /* AppleLiquidGlowDemo */,
+				PROD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		PROD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				P /* AppleLiquidGlowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T /* AppleLiquidGlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = TCL /* Build configuration list for PBXNativeTarget "AppleLiquidGlowDemo" */;
+			buildPhases = (
+				S /* Sources */,
+				FW /* Frameworks */,
+				R /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleLiquidGlowDemo;
+			productName = AppleLiquidGlowDemo;
+			productReference = P /* AppleLiquidGlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = PCL /* Build configuration list for PBXProject "AppleLiquidGlowDemo" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = PG;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = PROD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T /* AppleLiquidGlowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1 /* AppleLiquidGlowDemoApp.swift in Sources */,
+				A2 /* ContentView.swift in Sources */,
+				A3 /* LiquidGlowView.swift in Sources */,
+				A5 /* PlaygroundChrome.swift in Sources */,
+				A6 /* GeneratedArtwork.swift in Sources */,
+				A7 /* PlaygroundIdleScreen.swift in Sources */,
+				A4 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleLiquidGlowDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Apple Liquid Glow Demo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AppleLiquidGlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleLiquidGlowDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Apple Liquid Glow Demo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AppleLiquidGlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PCL /* Build configuration list for PBXProject "AppleLiquidGlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3 /* Debug */,
+				C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		TCL /* Build configuration list for PBXNativeTarget "AppleLiquidGlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1 /* Debug */,
+				C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJ /* Project object */;
+}
